@@ -9,6 +9,16 @@ body {
     align-items: center;
 }
 
+/* i am stashing this */
+#id3{
+    background-color: #71b7e6;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
 .welcome-container {
     text-align: center;
     background: rgba(255, 255, 255, 0.8);
@@ -42,4 +52,34 @@ p {
 
 .btn:hover {
     background: #8e44ad;
+}
+
+.image-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.image-container {
+    display: inline-block;
+    margin: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-container p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #333;
+}
+
+.image-container{
+    flood-color: aqua;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
