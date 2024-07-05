@@ -68,36 +68,8 @@ p {
     color: #333;
 }
 
-.image-section {
+.image-container{
+    flood-color: aqua;
     text-align: center;
-    margin-top: 50px;
-}
-
-.image-container {
-    display: inline-block;
-    margin: 20px;
-}
-
-.image-container img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.image-container p {
-    margin-top: 10px;
-    font-size: 1em;
-    color: #333;
-}
-
- /* third change in style   */
-#id1{
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 1em;
-    color: #fff;
-    background: #9b59b6;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
